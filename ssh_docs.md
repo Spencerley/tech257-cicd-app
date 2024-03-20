@@ -1,4 +1,6 @@
-# How do you create an SSH key pair?
+# SSH Documentation
+
+## How do you create an SSH key pair?
 Using the ssh-keygen command:
 1. `ssh-keygen -t rsa -f C:/Users/<WINDOWS_USER>/.ssh/<KEY_FILENAME> -C <email> -b 2048`
 2. eval `ssh-agent -s`
