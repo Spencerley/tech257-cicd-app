@@ -43,3 +43,18 @@
 2. Add GitHub hook trigger to Jenkins test.
     ![alt text](images-md/jenkins-hook.png)
 3. Test the web hook is running by making a push to main.
+
+## Step by Step
+1. Go to new item
+2. Name it
+3. Freestyle
+4. Click github project
+5. Restrict to sparta-ubuntu-node
+6. Tick git 
+7. Tick github project
+8. http in project one and then ssh url in the git source control
+9. Put in our key for credentials
+10. node and npm enabled
+11. Then tick github hook trigger
+12. Build step cd app npm install npm start
+13. Fianlly save
