@@ -17,5 +17,5 @@ Other than security and privacy.
 - The SSH key pair is used to authenticate the identity of a user or process that wants to access a remote system using the SSH protocol. The public key is used by both the user and the remote server to encrypt messages.
 - The private key remains only on the system being used to access the remote server and is used to decrypt messages.
  
-![SSH Authentication image](images/ssh-authentication.png)
+![SSH Authentication image](images-md/ssh-authentication.png)
 

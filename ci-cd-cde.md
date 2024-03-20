@@ -19,7 +19,7 @@
 - Source → Build → Test → Production
 - **Continuous Deployment** goes one step further than continuous delivery, with this practice, every change that passes all stages of your production pipeline is released to your customers, there is no human intervention, and only a failed test will prevent a new change to be deployed to production.
 
-    ![CI/CD/CDE](images/cicdcde.webp)
+    ![CI/CD/CDE](images-md/cicdcde.webp)
 
 ### Takeaways:
 
