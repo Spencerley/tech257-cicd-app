@@ -66,3 +66,49 @@ There are eight fundamental elements of CI/CD that help ensure maximum efficienc
     - Every developer should be able to access the latest executables and see any changes made to the repository. Information in the repository should be visible to all. Use version control to manage handoffs so developers know which is the latest version. Maximum visibility means everyone can monitor progress and identify potential concerns.
 8. **Predictable deployments anytime**
     - Deployments should be so routine and low-risk that the team is comfortable doing them anytime. CI/CD testing and verification processes should be rigorous and reliable, giving the team confidence to deploy updates at any time. Frequent deployments incorporating limited changes also pose lower risks and can be easily rolled back.
+
+## **What are the benefits of each practice?**
+
+### **Continuous integration**
+
+**What you need (cost):**
+
+- Your team will need to write automated tests for each new feature, improvement or bug fix.
+- You need a continuous integration server that can monitor the main repository and run the tests automatically for every new commits pushed.
+- Developers need to merge their changes as often as possible, at least once a day.
+
+**What you gain:**
+
+- Less bugs get shipped to production as regressions are captured early by the automated tests.
+- Building the release is easy as all integration issues have been solved early.
+- Less context switching as developers are alerted as soon as they break the build and can work on fixing it before they move to another task.
+- Testing costs are reduced drastically – your CI server can run hundreds of tests in the matter of seconds.
+- Your QA team spends less time testing and can focus on significant improvements to the quality culture.
+
+### **Continuous delivery**
+
+**What you need (cost):**
+
+- You need a strong foundation in continuous integration and your test suite needs to cover enough of your codebase.
+- Deployments need to be automated. The trigger is still manual but once a deployment is started there shouldn't be a need for human intervention.
+- Your team will most likely need to embrace feature flags so that incomplete features do not affect customers in production.
+
+**What you gain:**
+
+- The complexity of deploying software has been taken away. Your team doesn't have to spend days preparing for a release anymore.
+- You can release more often, thus accelerating the feedback loop with your customers.
+- There is much less pressure on decisions for small changes, hence encouraging iterating faster.
+
+### **Continuous deployment**
+
+**What you need (cost):**
+
+- Your testing culture needs to be at its best. The quality of your test suite will determine the quality of your releases.
+- Your documentation process will need to keep up with the pace of deployments.
+- Feature flags become an inherent part of the process of releasing significant changes to make sure you can coordinate with other departments (support, marketing, PR...).
+
+**What you gain:**
+
+- You can develop faster as there's no need to pause development for releases. Deployments pipelines are triggered automatically for every change.
+- Releases are less risky and easier to fix in case of problem as you deploy small batches of changes.
+- Customers see a continuous stream of improvements, and quality increases every day, instead of every month, quarter or year.
