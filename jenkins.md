@@ -40,3 +40,5 @@
 ## Webhooks
 1.  Set up the webhook in the repo settings adding the ip of your jenkins suite and /github-webhook/ at the end.
     ![alt text](images-md/webhook.png)
+2. Add GitHub hook trigger to Jenkins test.
+    ![alt text](images-md/jenkins-hook.png)
