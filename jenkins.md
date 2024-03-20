@@ -23,3 +23,16 @@
 - Build one job at a time, test that it works then add to pipeline then test pipeline then repeat.
 
 ![Fianl detailed ci/cd example](images/ci-cd-final-details.png)
+
+## Using SSH with Jenkins
+1. Make sure the Public key is added to the repo as a deploy key
+2. Set up the log rotation to be the same as above
+3. Tick GitHub project and add the https link
+4. Tick restrict where this project can run and add the Label Expression
+    ![Label Expression](images/office365Connector.png)
+5. Source Code Management tick Git and add the SSH Link 
+    ![error code](images/initial_error.png)
+6. then add your private key include the white space at beginning and end & just straight copy paste from top to bottom and also include the ----OPEN PRIVATE KEY-- and end bit.
+    ![private key](images/add_private_ssh.png)
+    ![Key added image](images/once_key_added.png)
+7. 
