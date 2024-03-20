@@ -42,3 +42,4 @@
     ![alt text](images-md/webhook.png)
 2. Add GitHub hook trigger to Jenkins test.
     ![alt text](images-md/jenkins-hook.png)
+3. Test the web hook is running by making a push to main.
