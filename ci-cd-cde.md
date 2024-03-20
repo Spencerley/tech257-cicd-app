@@ -1,14 +1,18 @@
-## Article One: https://medium.com/@ahshahkhan/devops-culture-and-cicd-3761cfc62450
+# CI/CD/CDE
+
+- Article One: https://medium.com/@ahshahkhan/devops-culture-and-cicd-3761cfc62450
+- Article Two: https://about.gitlab.com/topics/ci-cd/
+- Article Three: https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment 
 
 ## Continuous Integration
 
 - Source → Build, Test, Production
-- Developers merge/commit code to master branch multiple times a day, fully automated build and test process which gives feedback within few minutes, by doing so, you avoid the integration hell that usually happens when people wait for release day to merge their changes into the release branch**.**
+- Developers merge/commit code to main branch multiple times a day, fully automated build and test process which gives feedback within few minutes, by doing so, you avoid the integration hell that usually happens when people wait for release day to merge their changes into the release branch**.**
 
 ## Continuous Delivery
 
 - Source → Build → Test →(manual) Production
-- **Continuous Delivery** is an extension of continuous integration to make sure that you can release new changes to your customers quickly in a sustainable way. This means that on top of having automated your testing, you also have automated your release process and you can deploy your application at any point of time by clicking on a button**. In continuous Delivery the deployment is completed manually.**
+- **Continuous Delivery** is an extension of continuous integration to make sure that you can release new changes to your customers quickly in a sustainable way. This means that on top of having automated your testing, you also have automated your release process and you can deploy your application at any point of time by clicking on a button. In continuous Delivery the deployment is completed manually.
 
 ## Continuous Deployment
 
@@ -22,7 +26,6 @@
 - **How CICD Practices relate to each other:** To put it simply, the continuous integration is part of both continuous delivery and continuous deployment. The main difference is the deployment step, in continuous delivery the deployment is done manually and in continuous deployment it happens automatically.
 - **What is a CI CD Pipeline**: The CI/CD pipeline is all about automation: Initiating code builds, automated testing, and automated deploying to the staging or production environments. It’s complex and exciting at the same time, but incredibly fast, if the output of any stage fails, the next stage will also fail.
 
-## Article Two: https://about.gitlab.com/topics/ci-cd/
 
 ## **CI/CD explained**
 
