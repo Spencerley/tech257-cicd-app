@@ -112,3 +112,13 @@ There are eight fundamental elements of CI/CD that help ensure maximum efficienc
 - You can develop faster as there's no need to pause development for releases. Deployments pipelines are triggered automatically for every change.
 - Releases are less risky and easier to fix in case of problem as you deploy small batches of changes.
 - Customers see a continuous stream of improvements, and quality increases every day, instead of every month, quarter or year.
+
+## CD
+1. Create as EC2 we used - ami-02f0341ac93c96375
+2. Then create an enw Jenkins job follow the same steps for CI with the git hub and ssh.
+3. In build environment add an SSH Agent to the EC2
+    ![ssh agent](images-md/ssh_agent.png)
+4. In execute shell add the following
+    ![cd shell](images-md/cd_shell.png)
+
+![cd diagram](images-md/cd_diagram.png)
