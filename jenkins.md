@@ -58,3 +58,13 @@
 11. Then tick github hook trigger
 12. Build step cd app npm install npm start
 13. Finally save the job!
+
+## CD
+1. Create as EC2 we used - ami-02f0341ac93c96375
+2. Then create an enw Jenkins job follow the same steps for CI with the git hub and ssh.
+3. In build environment add an SSH Agent to the EC2
+    ![ssh agent](images-md/ssh_agent.png)
+4. In execute shell add the following
+    ![cd shell](images-md/cd_shell.png)
+
+![cd diagram](images-md/cd_diagram.png)
