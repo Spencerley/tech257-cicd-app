@@ -8,3 +8,4 @@ test merge 3
 test merge 4
 test merge 5
 test merge 6
+test merge 7
