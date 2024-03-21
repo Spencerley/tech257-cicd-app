@@ -57,4 +57,4 @@
 10. node and npm enabled
 11. Then tick github hook trigger
 12. Build step cd app npm install npm start
-13. Fianlly save
+13. Fianlly save the job
