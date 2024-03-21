@@ -66,5 +66,6 @@
     ![ssh agent](images-md/ssh_agent.png)
 4. In execute shell add the following
     ![cd shell](images-md/cd_shell.png)
-
+5. next steps to automate more:
+    ![alt text](images-md/cd_further_automation.png)
 ![cd diagram](images-md/cd_diagram.png)
