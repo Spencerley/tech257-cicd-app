@@ -4,3 +4,4 @@
 
 Test merge
 test merge 2
+test merge 3
