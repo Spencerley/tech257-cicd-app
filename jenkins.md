@@ -69,3 +69,7 @@
 5. next steps to automate more:
     ![alt text](images-md/cd_further_automation.png)
 ![cd diagram](images-md/cd_diagram.png)
+
+## Examples
+- Example Script for setting up CI: [CI Jenkins](jenkins-ci-cd-script-examples/ci.sh)
+- Example Script for setting up CD: [CD Jenkins](jenkins-ci-cd-script-examples/cd.sh)
