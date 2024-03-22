@@ -73,3 +73,6 @@
 ## Examples
 - Example Script for setting up CI: [CI Jenkins](jenkins-ci-cd-script-examples/ci.sh)
 - Example Script for setting up CD: [CD Jenkins](jenkins-ci-cd-script-examples/cd.sh)
+
+### Full process 
+![automation server jenkins](images-md/automation-server-jenkins.png)
